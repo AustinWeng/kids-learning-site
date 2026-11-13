@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 有笑臉的黃色星星 -->
+  <polygon points="60,17 74.1,43.6 103.7,48.8 82.8,70.4 87,100.2 60,87 33,100.2 37.2,70.4 16.3,48.8 45.9,43.6" fill="#4A342A" stroke="#4A342A" stroke-width="18" stroke-linejoin="round"/>
+  <polygon points="60,17 74.1,43.6 103.7,48.8 82.8,70.4 87,100.2 60,87 33,100.2 37.2,70.4 16.3,48.8 45.9,43.6" fill="#F9BF23" stroke="#F9BF23" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M 56 30 L 51 39" fill="none" stroke="#FFE07E" stroke-width="5" stroke-linecap="round"/>
+
+  <circle cx="50" cy="62" r="5" fill="#342A23"/>
+  <circle cx="48.4" cy="60.4" r="1.8" fill="#FFFFFF"/>
+  <circle cx="70" cy="62" r="5" fill="#342A23"/>
+  <circle cx="68.4" cy="60.4" r="1.8" fill="#FFFFFF"/>
+  <path d="M 53 71 Q 60 79 67 71" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="41" cy="71" rx="4.6" ry="4" fill="#FF9E8E"/>
+  <ellipse cx="79" cy="71" rx="4.6" ry="4" fill="#FF9E8E"/>
+</svg>

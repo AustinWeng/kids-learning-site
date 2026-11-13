@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- 貓頭鷹「咕咕」：故事模組角色，正面站姿揮手，夾著一本書 -->
+
+  <!-- 舉起揮手的翅膀（觀眾右側） -->
+  <path d="M 144 152 C 164 152, 190 136, 204 108 C 184 102, 160 116, 142 136 Z" fill="#A9744F"/>
+  <path d="M 183.8 134.5 C 191.6 127.5, 198.7 118.6, 204 108 C 196.4 105.7, 188.2 106.3, 180 109.1 Z" fill="#8C5C3C"/>
+  <path d="M 144 152 C 164 152, 190 136, 204 108 C 184 102, 160 116, 142 136 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 身體 -->
+  <ellipse cx="114" cy="172" rx="44" ry="44" fill="#A9744F"/>
+  <path d="M 157.3 164.4 C 160.3 181.2, 153.2 198.2, 139.2 208 C 125.2 217.8, 106.8 218.7, 92 210.1 Q 143.5 214.1, 157.3 164.4 Z" fill="#8C5C3C"/>
+  <ellipse cx="114" cy="182" rx="27" ry="29" fill="#FBE3B5"/>
+  <path d="M 96 180 Q 101 186, 106 180 M 112 186 Q 117 192, 122 186 M 98 198 Q 103 204, 108 198" fill="none" stroke="#D9B27C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="114" cy="172" rx="44" ry="44" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 腳 -->
+  <ellipse cx="98" cy="219" rx="13" ry="6.5" fill="#F9A825" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 94 220 L 94 225 M 102 220 L 102 225" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="130" cy="219" rx="13" ry="6.5" fill="#F9A825" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 126 220 L 126 225 M 134 220 L 134 225" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 書（夾在觀眾左側的翅膀下，大半露在身體外） -->
+  <path d="M 36 160 L 76 154 L 84 206 L 44 212 Z" fill="#E5634A"/>
+  <path d="M 36 160 L 44 158.8 L 52 210.8 L 44 212 Z" fill="#C94E38"/>
+  <path d="M 43 205.2 L 83 199.2 L 84 206 L 44 212 Z" fill="#FFF4E0"/>
+  <circle cx="59" cy="182" r="6" fill="#FFD95A"/>
+  <path d="M 36 160 L 76 154 L 84 206 L 44 212 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 抱書的翅膀（觀眾左側） -->
+  <path d="M 82 144 C 74 150, 68 172, 72 189 C 79 197, 91 192, 93 178 C 93 166, 91 156, 90 148 Z" fill="#A9744F" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 頭（含耳羽簇） -->
+  <path d="M 54 26 C 64 38, 78 43, 92 41 C 106 38, 122 38, 136 41 C 150 43, 164 38, 174 26 C 181 48, 180 72, 177 94 C 172 126, 146 142, 114 142 C 82 142, 56 126, 51 94 C 48 72, 47 48, 54 26 Z" fill="#A9744F"/>
+  <path d="M 179.3 66.9 L 177 94 C 172 126, 146 142, 114 142 L 95.6 140.1 C 144 138, 170 112, 179.3 66.9 Z" fill="#8C5C3C"/>
+  <path d="M 62 66 C 62 58, 66 52, 74 50" fill="none" stroke="#C4906A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 54 26 C 64 38, 78 43, 92 41 C 106 38, 122 38, 136 41 C 150 43, 164 38, 174 26 C 181 48, 180 72, 177 94 C 172 126, 146 142, 114 142 C 82 142, 56 126, 51 94 C 48 72, 47 48, 54 26 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="89" cy="90" r="29" fill="#FFF4E0"/>
+  <circle cx="139" cy="90" r="29" fill="#FFF4E0"/>
+  <ellipse cx="114" cy="112" rx="22" ry="16" fill="#FFF4E0"/>
+
+  <!-- 圍巾 -->
+  <path d="M 132 154 L 150 150 L 156 182 L 138 186 Z" fill="#489871" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 137 177 L 154 173" fill="none" stroke="#8ACBA8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 70 132 C 84 142, 144 142, 158 132 C 164 136, 164 146, 158 150 C 142 166, 86 166, 70 150 C 64 146, 64 136, 70 132 Z" fill="#489871"/>
+  <path d="M 70 150 C 86 166, 142 166, 158 150 C 142 159, 86 159, 70 150 Z" fill="#37785A"/>
+  <path d="M 70 132 C 84 142, 144 142, 158 132 C 164 136, 164 146, 158 150 C 142 166, 86 166, 70 150 C 64 146, 64 136, 70 132 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 喙與嘴 -->
+  <path d="M 104 98 C 108 94, 120 94, 124 98 C 122 108, 117 114, 114 116 C 111 114, 106 108, 104 98 Z" fill="#F9A825" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 106 122 Q 114 128, 122 122" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 眼睛與腮紅 -->
+  <circle cx="89" cy="87" r="9" fill="#342A23"/>
+  <circle cx="86" cy="84" r="3.2" fill="#FFFFFF"/>
+  <circle cx="139" cy="87" r="9" fill="#342A23"/>
+  <circle cx="136" cy="84" r="3.2" fill="#FFFFFF"/>
+  <ellipse cx="75" cy="106" rx="7.5" ry="6.5" fill="#FF9E8E"/>
+  <ellipse cx="153" cy="106" rx="7.5" ry="6.5" fill="#FF9E8E"/>
+</svg>

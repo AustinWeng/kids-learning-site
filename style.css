@@ -1,0 +1,140 @@
+/* 上小學我不怕：簡介、隱私權政策、支援頁共用樣式。
+   配色沿用 App 的卡通風（App/Shared/Theme.swift）：天空藍底、暖白紙卡、深咖啡粗外框與實色陰影。
+   只用系統字型，不引用任何外部字型、腳本或追蹤碼。 */
+:root {
+  --sky: #ddf1fb;
+  --paper: #fdf6e7;
+  --card: #fffcf4;
+  --ink: #342a23;
+  --ink-soft: #5e4a40;
+  --outline: #4a342a;
+  --zhuyin: #e5634a;
+  --zhuyin-light: #fbe1da;
+  --story: #489871;
+  --story-light: #ddefe4;
+  --math: #3b78c4;
+  --math-light: #dce8f7;
+  --language: #7e57c2;
+  --language-light: #ece3f7;
+  --sunny: #ffd23f;
+  --grass: #8fcf6a;
+  --grass-deep: #6fb551;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+  -webkit-text-size-adjust: 100%;
+}
+img { max-width: 100%; height: auto; }
+
+/* 頁首：天空＋山丘 */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--sky);
+  border-bottom: 4px solid var(--outline);
+  padding: 28px 16px 56px;
+}
+.hero::after {
+  content: "";
+  position: absolute; left: -10%; right: -10%; bottom: -60px; height: 100px;
+  background: var(--grass);
+  border-top: 4px solid var(--outline);
+  border-radius: 50% 50% 0 0;
+}
+.hero .sun { position: absolute; top: 14px; right: 6%; width: 84px; }
+.hero .cloud { position: absolute; top: 48px; left: 4%; width: 110px; opacity: .95; }
+.hero-inner { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; }
+.brand { display: flex; align-items: center; gap: 16px; }
+.brand img { width: 76px; height: 76px; border-radius: 18px; border: 3px solid var(--outline); flex: none; background: #fff; }
+.brand h1 { margin: 0; font-size: 30px; line-height: 1.25; font-weight: 900; letter-spacing: .04em; }
+.brand p { margin: 4px 0 0; color: var(--ink-soft); font-size: 16px; line-height: 1.5; }
+
+/* 導覽：貼紙膠囊 */
+nav.pages { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+nav.pages a {
+  display: inline-block;
+  padding: 6px 18px;
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink);
+  border: 3px solid var(--outline);
+  box-shadow: 0 4px 0 var(--outline);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+}
+nav.pages a[aria-current="page"] { background: var(--sunny); }
+nav.pages a:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--outline); }
+
+main { max-width: 860px; margin: 0 auto; padding: 28px 16px 48px; }
+
+/* 貼紙卡片 */
+section {
+  background: var(--card);
+  border: 3px solid var(--outline);
+  border-radius: 22px;
+  box-shadow: 0 6px 0 var(--outline);
+  padding: 20px 22px;
+  margin: 0 0 24px;
+}
+h2 { margin: 0 0 8px; font-size: 21px; line-height: 1.4; font-weight: 800; }
+h3 { margin: 18px 0 4px; font-size: 17px; line-height: 1.5; font-weight: 800; }
+p, li { margin: 6px 0; }
+ul { padding-left: 1.3em; margin: 6px 0; }
+a { color: #2c5f9e; }
+.summary { background: var(--sunny); font-size: 18px; }
+.muted { color: var(--ink-soft); font-size: 15px; }
+code, .addr { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .95em; word-break: break-all; }
+
+/* 四個單元卡 */
+.modules { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 0 0 24px; }
+.module { margin: 0; padding: 16px 16px 14px; text-align: left; }
+.module .head { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+.module .head img { width: 64px; height: 64px; flex: none; border-radius: 50%; padding: 4px; }
+.module h2 { margin: 0; font-size: 22px; }
+.module.zhuyin .head img { background: var(--zhuyin-light); }
+.module.story .head img { background: var(--story-light); }
+.module.math .head img { background: var(--math-light); }
+.module.language .head img { background: var(--language-light); }
+.module.zhuyin h2 { color: #b8432e; }
+.module.story h2 { color: #2f6e50; }
+.module.math h2 { color: #2c5f9e; }
+.module.language h2 { color: #5e3a9a; }
+
+/* 截圖 */
+.shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.shots figure { margin: 0; }
+.shots img { display: block; width: 100%; border: 3px solid var(--outline); border-radius: 14px; background: #fff; }
+.shots figcaption { font-size: 14px; color: var(--ink-soft); text-align: center; margin-top: 4px; }
+
+/* 常見問題 */
+.faq h3:first-of-type { margin-top: 6px; }
+
+footer {
+  background: var(--grass-deep);
+  border-top: 4px solid var(--outline);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 18px 16px 22px;
+}
+footer a { color: #fff; }
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .hero { padding: 20px 16px 48px; }
+  .hero .sun, .hero .cloud { display: none; }   /* 窄螢幕不放，避免壓到標題 */
+  .brand img { width: 60px; height: 60px; border-radius: 14px; }
+  .brand h1 { font-size: 24px; }
+  .brand p { font-size: 14px; }
+  section { padding: 16px 16px; border-radius: 18px; }
+  .modules, .shots { grid-template-columns: minmax(0, 1fr); }
+}

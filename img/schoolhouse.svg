@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 260" width="280" height="260">
+  <!-- 有時鐘的小學堂木屋 -->
+  <rect x="34" y="238" width="212" height="14" rx="7" fill="#C4906A" stroke="#4A342A" stroke-width="6"/>
+
+  <rect x="52" y="124" width="176" height="118" fill="#F6CF8E"/>
+  <rect x="52" y="124" width="176" height="16" fill="#E3B56E"/>
+  <path d="M 55 164 L 225 164 M 55 190 L 225 190 M 55 216 L 225 216" fill="none" stroke="#E3B56E" stroke-width="4" stroke-linecap="round"/>
+  <rect x="52" y="124" width="176" height="118" fill="none" stroke="#4A342A" stroke-width="6" stroke-linejoin="round"/>
+
+  <polygon points="52,124 140,46 228,124" fill="#FBE3B5" stroke="#4A342A" stroke-width="6" stroke-linejoin="round"/>
+
+  <path d="M 140 22 L 264 126 C 268 130, 266 138, 260 138 L 244 138 L 140 52 L 36 138 L 20 138 C 14 138, 12 130, 16 126 Z" fill="#E5634A"/>
+  <path d="M 140 52 L 244 138 L 230 138 L 140 64 L 50 138 L 36 138 Z" fill="#C94E38"/>
+  <path d="M 140 22 L 264 126 C 268 130, 266 138, 260 138 L 244 138 L 140 52 L 36 138 L 20 138 C 14 138, 12 130, 16 126 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linejoin="round"/>
+
+  <circle cx="140" cy="98" r="19" fill="#FFFCF4" stroke="#4A342A" stroke-width="6"/>
+  <path d="M 140 98 L 140 86 M 140 98 L 149 102" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round"/>
+
+  <path d="M 120 242 L 120 196 C 120 172, 160 172, 160 196 L 160 242 Z" fill="#489871"/>
+  <path d="M 146 180 C 154 182, 160 188, 160 196 L 160 242 L 148 242 Z" fill="#37785A"/>
+  <path d="M 120 242 L 120 196 C 120 172, 160 172, 160 196 L 160 242 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="151" cy="214" r="3.5" fill="#FFD95A"/>
+
+  <rect x="68" y="166" width="34" height="38" rx="6" fill="#BFE3F5" stroke="#4A342A" stroke-width="6"/>
+  <path d="M 85 166 L 85 204 M 68 185 L 102 185" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round"/>
+  <rect x="178" y="166" width="34" height="38" rx="6" fill="#BFE3F5" stroke="#4A342A" stroke-width="6"/>
+  <path d="M 195 166 L 195 204 M 178 185 L 212 185" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round"/>
+</svg>
