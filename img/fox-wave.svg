@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- 狐狸「奇奇」：英文模組角色，正面站姿揮手，拿著一張字母卡 -->
+
+  <!-- 蓬鬆的大尾巴（白色尾巴尖） -->
+  <path d="M 148 200 C 182 206, 214 190, 220 160 C 224 140, 214 120, 200 112 C 204 132, 196 152, 178 164 C 166 172, 154 178, 146 182 Z" fill="#F28C38" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 200 112 C 214 120, 224 140, 220 160 C 212 150, 202 142, 194 138 C 200 130, 202 120, 200 112 Z" fill="#FFF4E4"/>
+  <path d="M 148 200 C 182 206, 214 190, 220 160 C 224 140, 214 120, 200 112 C 204 132, 196 152, 178 164 C 166 172, 154 178, 146 182 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 尖耳朵 -->
+  <path d="M 72 82 L 66 30 C 66 24, 72 22, 76 26 L 108 56 Z" fill="#F28C38" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 76 70 L 73 40 L 96 60 Z" fill="#6B3E26"/>
+  <path d="M 168 82 L 174 30 C 174 24, 168 22, 164 26 L 132 56 Z" fill="#F28C38" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 164 70 L 167 40 L 144 60 Z" fill="#6B3E26"/>
+  <!-- 舉起揮手的手（觀眾右側） -->
+  <path d="M 148 152 C 166 146, 186 128, 196 108 L 214 114 C 206 142, 180 164, 154 170 Z" fill="#F28C38" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="206" cy="104" rx="13" ry="14" fill="#6B3E26" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 200 92 L 198 84 M 208 90 L 208 82 M 216 94 L 220 87" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round"/>
+  <!-- 身體 -->
+  <ellipse cx="120" cy="178" rx="38" ry="40" fill="#F28C38"/>
+  <path d="M 157 170 C 160 186, 154 202, 142 211 C 130 219, 114 220, 100 213 Q 146 214, 157 170 Z" fill="#D9702A"/>
+  <ellipse cx="120" cy="188" rx="22" ry="25" fill="#FFF4E4"/>
+  <ellipse cx="120" cy="178" rx="38" ry="40" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 腳（深色襪子） -->
+  <ellipse cx="104" cy="219" rx="15" ry="7" fill="#6B3E26" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="136" cy="219" rx="15" ry="7" fill="#6B3E26" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 字卡「A」 -->
+  <g transform="translate(78 186) rotate(-14)">
+    <rect x="-20" y="-24" width="40" height="46" rx="8" fill="#12898C" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -10 12 L 0 -14 L 10 12 M -6 3 L 6 3" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- 拿卡的手（觀眾左側） -->
+  <ellipse cx="92" cy="194" rx="10" ry="9" fill="#F28C38" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 頭：兩頰往外翹的狐狸臉 -->
+  <path d="M 120 46 C 156 46, 178 70, 180 96 C 190 104, 192 114, 184 122 C 176 136, 152 148, 120 148 C 88 148, 64 136, 56 122 C 48 114, 50 104, 60 96 C 62 70, 84 46, 120 46 Z" fill="#F28C38"/>
+  <path d="M 178 100 C 184 118, 168 140, 140 146 C 160 134, 172 120, 178 100 Z" fill="#D9702A"/>
+  <!-- 白色的臉頰與嘴邊 -->
+  <path d="M 58 116 C 70 108, 90 108, 106 118 C 112 122, 116 124, 120 124 C 124 124, 128 122, 134 118 C 150 108, 170 108, 182 116 C 172 136, 150 148, 120 148 C 90 148, 68 136, 58 116 Z" fill="#FFF4E4"/>
+  <path d="M 84 64 C 92 56, 102 52, 112 51" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 120 46 C 156 46, 178 70, 180 96 C 190 104, 192 114, 184 122 C 176 136, 152 148, 120 148 C 88 148, 64 136, 56 122 C 48 114, 50 104, 60 96 C 62 70, 84 46, 120 46 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 鼻子與嘴 -->
+  <path d="M 112 112 Q 120 106, 128 112 Q 126 120, 120 121 Q 114 120, 112 112 Z" fill="#342A23" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 108 126 Q 114 132, 120 126 Q 126 132, 132 126" fill="none" stroke="#4A342A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 眼睛與腮紅 -->
+  <circle cx="92" cy="92" r="9" fill="#342A23"/>
+  <circle cx="89" cy="89" r="3.2" fill="#FFFFFF"/>
+  <circle cx="148" cy="92" r="9" fill="#342A23"/>
+  <circle cx="145" cy="89" r="3.2" fill="#FFFFFF"/>
+  <ellipse cx="76" cy="112" rx="7.5" ry="6" fill="#FF9E8E"/>
+  <ellipse cx="164" cy="112" rx="7.5" ry="6" fill="#FF9E8E"/>
+  <!-- 青綠色圍巾 -->
+  <path d="M 136 156 L 154 152 L 160 184 L 142 188 Z" fill="#12898C" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 141 179 L 158 175" fill="none" stroke="#7FD1D2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 78 136 C 92 146, 148 146, 162 136 C 168 140, 168 150, 162 154 C 146 168, 94 168, 78 154 C 72 150, 72 140, 78 136 Z" fill="#12898C"/>
+  <path d="M 78 154 C 94 168, 146 168, 162 154 C 146 162, 94 162, 78 154 Z" fill="#0B6467"/>
+  <path d="M 78 136 C 92 146, 148 146, 162 136 C 168 140, 168 150, 162 154 C 146 168, 94 168, 78 154 C 72 150, 72 140, 78 136 Z" fill="none" stroke="#4A342A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

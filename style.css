@@ -16,6 +16,8 @@
   --math-light: #dce8f7;
   --language: #7e57c2;
   --language-light: #ece3f7;
+  --english: #12898c;
+  --english-light: #d5f0f0;
   --sunny: #ffd23f;
   --grass: #8fcf6a;
   --grass-deep: #6fb551;
@@ -94,7 +96,7 @@ a { color: #2c5f9e; }
 .muted { color: var(--ink-soft); font-size: 15px; }
 code, .addr { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .95em; word-break: break-all; }
 
-/* 四個單元卡 */
+/* 五個單元卡（第五張英文橫跨兩欄） */
 .modules { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 0 0 24px; }
 .module { margin: 0; padding: 16px 16px 14px; text-align: left; }
 .module .head { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
@@ -104,10 +106,13 @@ code, .addr { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-
 .module.story .head img { background: var(--story-light); }
 .module.math .head img { background: var(--math-light); }
 .module.language .head img { background: var(--language-light); }
+.module.english .head img { background: var(--english-light); }
+.module.english { grid-column: 1 / -1; }
 .module.zhuyin h2 { color: #b8432e; }
 .module.story h2 { color: #2f6e50; }
 .module.math h2 { color: #2c5f9e; }
 .module.language h2 { color: #5e3a9a; }
+.module.english h2 { color: #0b6467; }
 
 /* 截圖 */
 .shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
